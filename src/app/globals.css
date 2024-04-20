@@ -26,8 +26,45 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@layer components {
+  .hugeTitle {
+    @apply text-huge font-black lowercase;
+  }
+
+  .heading1 {
+    @apply text-h1 font-black;
+  }
+
+  .heading2 {
+    @apply text-h2 font-black;
+  }
+
+  .heading3 {
+    @apply text-h3 font-black;
+  }
+
+  .heading4 {
+    @apply text-h4 font-black;
+  }
+
+  .navMenu {
+    @apply font-bold text-xs uppercase leading-[15px];
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+
+  .flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .flex-center {
+    display: flex;
+    align-items: center;
   }
 }
