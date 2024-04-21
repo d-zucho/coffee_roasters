@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Fraunces, Barlow } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
+import Header from '@/components/header/Header'
 
 const fraunces = Fraunces({ subsets: ['latin'] })
 const barlow = Barlow({
@@ -22,7 +23,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={cn(barlow.className, 'bg-lightCream')}>{children}</body>
+      <body className={cn(barlow.className, 'bg-lightCream')}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
