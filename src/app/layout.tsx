@@ -4,7 +4,11 @@ import './globals.css'
 import { cn } from '@/lib/utils'
 import Header from '@/components/header/Header'
 
-const fraunces = Fraunces({ subsets: ['latin'] })
+const fraunces = Fraunces({
+  subsets: ['latin'],
+  weight: '900',
+  variable: '--font-fraunces',
+})
 const barlow = Barlow({
   subsets: ['latin'],
   weight: '400',
@@ -23,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={cn(barlow.className, 'bg-lightCream')}>
+      <body className={cn(barlow.variable, fraunces.variable, 'bg-lightCream')}>
         <Header />
         {children}
       </body>

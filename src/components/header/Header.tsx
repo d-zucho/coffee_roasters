@@ -2,6 +2,7 @@ import MaxWidthWrapper from '@/components/MaxWidthWrapper'
 import Image from 'next/image'
 import Nav from './Nav'
 import Link from 'next/link'
+import MobileNav from './MobileNav'
 
 function Header() {
   return (
@@ -18,7 +19,15 @@ function Header() {
               />
             </Link>
           </div>
-          <Nav />
+
+          <div>
+            <div className='hidden md:block'>
+              <Nav />
+            </div>
+            <div className='block md:hidden'>
+              <MobileNav />
+            </div>
+          </div>
         </div>
       </MaxWidthWrapper>
     </header>

@@ -65,6 +65,10 @@ const config = {
         h3: '32px',
         h4: '24px',
       },
+      fontFamily: {
+        fraunces: 'var(--font-fraunces)',
+        barlow: 'var(--font-barlow)',
+      },
       borderRadius: {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',

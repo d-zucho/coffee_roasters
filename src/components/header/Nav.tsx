@@ -1,19 +1,5 @@
 import Link from 'next/link'
-
-const links = [
-  {
-    label: 'Home',
-    path: '/',
-  },
-  {
-    label: 'About Us',
-    path: '/about',
-  },
-  {
-    label: 'Create your plan',
-    path: '/plans',
-  },
-]
+import { links } from '@/textData/navItems'
 
 const Nav = () => {
   return (

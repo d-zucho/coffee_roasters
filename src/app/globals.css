@@ -84,7 +84,7 @@
   }
 
   .heading4 {
-    @apply text-h4 font-black;
+    @apply text-h4 font-black font-fraunces;
   }
 
   .navMenu {
