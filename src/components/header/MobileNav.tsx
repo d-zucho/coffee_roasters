@@ -1,5 +1,11 @@
 import React from 'react'
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from '../ui/sheet'
+import {
+  Sheet,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetTrigger,
+} from '../ui/sheet'
 import Image from 'next/image'
 import { links } from '@/textData/navItems'
 import Link from 'next/link'
@@ -19,7 +25,7 @@ const MobileNav = () => {
               className='hover:cursor-pointer'
             />
           </SheetTrigger>
-          <SheetContent>
+          <SheetContent className='bg-gradient-to-b from-lightCream to-lightCream/20'>
             <SheetHeader>
               <Image
                 src='/assets/shared/desktop/logo.svg'
@@ -31,13 +37,15 @@ const MobileNav = () => {
             </SheetHeader>
             <nav className='flex flex-col pt-6 items-center heading3 gap-8'>
               {links.map((link) => (
-                <Link
-                  key={link.label}
-                  href={link.path}
-                  className='font-fraunces'
-                >
-                  {link.label}
-                </Link>
+                <SheetClose asChild>
+                  <Link
+                    key={link.label}
+                    href={link.path}
+                    className='font-fraunces text-darkBlue'
+                  >
+                    {link.label}
+                  </Link>
+                </SheetClose>
               ))}
             </nav>
           </SheetContent>
