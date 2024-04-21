@@ -6,7 +6,7 @@ import Header from '@/components/header/Header'
 
 const fraunces = Fraunces({
   subsets: ['latin'],
-  weight: '900',
+  weight: ['900'],
   variable: '--font-fraunces',
 })
 const barlow = Barlow({

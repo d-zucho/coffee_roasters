@@ -64,6 +64,7 @@ const config = {
         h2: '40px',
         h3: '32px',
         h4: '24px',
+        btnLabel: '18px',
       },
       fontFamily: {
         fraunces: 'var(--font-fraunces)',
