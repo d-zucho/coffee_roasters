@@ -1,7 +1,7 @@
-import MaxWidthWrapper from './MaxWidthWrapper'
+import MaxWidthWrapper from '../MaxWidthWrapper'
 import Image from 'next/image'
 import Link from 'next/link'
-import { buttonVariants } from './ui/button'
+import { buttonVariants } from '../ui/button'
 import { cn } from '@/lib/utils'
 
 const Hero = () => {
