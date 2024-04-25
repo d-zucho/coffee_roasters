@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const WhyUs = () => {
   return (
-    <section id='why-us' className='w-full border'>
+    <section id='why-us' className='w-full border mb-20'>
       <MaxWidthWrapper className=''>
         <div className='bg-darkBlue rounded-lg text-lightCream pt-10 py-5'>
           <div className='text-center max-w-xl mx-auto space-y-10'>

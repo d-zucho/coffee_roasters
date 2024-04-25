@@ -1,4 +1,5 @@
 import Hero from '@/components/home/Hero'
+import HowItWorks from '@/components/home/HowItWorks'
 import OurCollection from '@/components/home/OurCollection'
 import WhyUs from '@/components/home/WhyUs'
 
@@ -9,7 +10,8 @@ export default function Home() {
         <Hero />
         <OurCollection />
         <WhyUs />
-        <p>asdasd</p>
+
+        <HowItWorks />
       </div>
     </main>
   )

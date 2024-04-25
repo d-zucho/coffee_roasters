@@ -13,3 +13,9 @@ export type TWhyUsFact = {
   title: string
   description: string
 }
+
+export type THowItWorksStep = {
+  step: string
+  title: string
+  description: string
+}
