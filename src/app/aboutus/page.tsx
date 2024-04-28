@@ -2,6 +2,8 @@ import SharedHero from '@/components/SharedHero'
 import AboutHero from './AboutHero'
 import OurCommitment from '@/components/about/OurCommitment'
 import TopQuality from '@/components/about/TopQuality'
+import Headquarters from '@/components/about/Headquarters'
+import HeadquarterCard from '@/components/about/HeadquarterCard'
 
 const aboutTitle = 'About Us'
 const aboutSubtitle =
@@ -13,9 +15,7 @@ const page = () => {
       <SharedHero title={aboutTitle} subtitle={aboutSubtitle} image='about' />
       <OurCommitment />
       <TopQuality />
-      <div className='mt-20'>
-        <SharedHero title='Our Story' subtitle='sadasd' image='about' />
-      </div>
+      <Headquarters />
     </div>
   )
 }
