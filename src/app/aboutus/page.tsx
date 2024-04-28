@@ -13,6 +13,9 @@ const page = () => {
       <SharedHero title={aboutTitle} subtitle={aboutSubtitle} image='about' />
       <OurCommitment />
       <TopQuality />
+      <div className='mt-20'>
+        <SharedHero title='Our Story' subtitle='sadasd' image='about' />
+      </div>
     </div>
   )
 }

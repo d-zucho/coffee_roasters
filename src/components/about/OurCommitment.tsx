@@ -6,7 +6,7 @@ const OurCommitment = () => {
     <section className='mt-20'>
       <MaxWidthWrapper>
         {/* WRAPPER -- FLEX CONTAINER */}
-        <div className='md:flex md:justify-between ,items-center gap-10 md:gap-20 mx-auto w-fit'>
+        <div className='md:flex md:justify-between ,items-center gap-10 lg:gap-20 mx-auto w-fit'>
           {/* LEFT COLUMN */}
           <div className='h-[500px] max-w-[400px] flex-1 mx-auto flex items-center'>
             <Image

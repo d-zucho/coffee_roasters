@@ -91,6 +91,9 @@ const config = {
           "url('/assets/about/tablet/image-hero-whitecup.jpg')",
         'about-hero-mobile':
           "url('/assets/about/mobile/image-hero-whitecup.jpg')",
+        'about-quality-desktop': "url('/assets/about/desktop/bg-quality.png')",
+        'about-quality-tablet': "url('/assets/about/tablet/bg-quality.png')",
+        'about-quality-mobile': "url('/assets/about/mobile/bg-quality.png')",
 
         // Subscribe
         'plan-hero-desktop':

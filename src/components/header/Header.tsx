@@ -15,7 +15,7 @@ function Header() {
                 src='/assets/shared/desktop/logo.svg'
                 alt='Logo'
                 width={200}
-                height={25}
+                height={20}
               />
             </Link>
           </div>

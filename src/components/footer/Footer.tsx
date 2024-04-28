@@ -12,20 +12,11 @@ const Footer = () => {
         <h3 className='heading3 text-white font-fraunces text-center'>
           coffeeroasters
         </h3>
-        <div className=''>
+        <div>
           <div
             id='footer-nav'
             className='uppercase text-gray text-sm text-center py-10 md:flex-row md:justify-center'
           >
-            {/* {links.map((link) => (
-              <Link
-                key={link.label}
-                href={link.path}
-                className='hover:text-white transition'
-              >
-                {link.label}
-              </Link>
-            ))} */}
             <Nav
               styles={
                 'flex-col gap-5 mx-auto text-center md:flex-row md:justify-center'
