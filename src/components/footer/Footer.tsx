@@ -3,6 +3,7 @@ import { links } from '../../textData/navItems'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import Link from 'next/link'
 import Image from 'next/image'
+import Nav from '../header/Nav'
 
 const Footer = () => {
   return (
@@ -12,11 +13,11 @@ const Footer = () => {
           coffeeroasters
         </h3>
         <div className=''>
-          <nav
+          <div
             id='footer-nav'
-            className='uppercase text-gray text-sm flex flex-col gap-5 mx-auto text-center py-10 md:flex-row md:justify-center'
+            className='uppercase text-gray text-sm text-center py-10 md:flex-row md:justify-center'
           >
-            {links.map((link) => (
+            {/* {links.map((link) => (
               <Link
                 key={link.label}
                 href={link.path}
@@ -24,8 +25,13 @@ const Footer = () => {
               >
                 {link.label}
               </Link>
-            ))}
-          </nav>
+            ))} */}
+            <Nav
+              styles={
+                'flex-col gap-5 mx-auto text-center md:flex-row md:justify-center'
+              }
+            />
+          </div>
         </div>
 
         {/* SOCIALS */}

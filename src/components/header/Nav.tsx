@@ -1,11 +1,16 @@
 import Link from 'next/link'
 import { links } from '@/textData/navItems'
+import { cn } from '@/lib/utils'
 
-const Nav = () => {
+const Nav = ({ styles }: any) => {
   return (
-    <nav className='flex-center gap-4'>
+    <nav className={cn('flex-center gap-4', styles)}>
       {links.map((link) => (
-        <Link key={link.label} href={link.path} className='navMenu'>
+        <Link
+          key={link.label}
+          href={link.path}
+          className='navMenu hover:text-paleOrange transition'
+        >
           {link.label}
         </Link>
       ))}

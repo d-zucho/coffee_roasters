@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const WhyUs = () => {
   return (
-    <section id='why-us' className='w-full border mb-20'>
+    <section id='why-us' className='w-full mb-60'>
       <MaxWidthWrapper className=''>
         <div className='bg-darkBlue rounded-lg text-lightCream pt-10 py-5'>
           <div className='text-center max-w-xl mx-auto space-y-10'>
@@ -19,7 +19,7 @@ const WhyUs = () => {
             </p>
           </div>
 
-          <div className='text-center grid lg:grid-cols-3 gap-5 mt-10'>
+          <div className='text-center grid lg:grid-cols-3 gap-5 mt-10 p-2 md:p-5'>
             {whyUsData.map((fact) => (
               <article className='bg-darkCyan p-8 mx-auto rounded-lg flex items-center gap-10 flex-col'>
                 <Image

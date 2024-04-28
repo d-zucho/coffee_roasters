@@ -22,7 +22,7 @@ const HowItWorks = () => {
               </div>
             ))}
           </div>
-          <div className='text-darkBlue mt-10 grid md:grid-cols-3 gap-5'>
+          <div className='text-darkBlue mt-10 grid md:grid-cols-3 gap-5 p-2'>
             {howItWorksData.map((step) => (
               <>
                 <div

@@ -25,7 +25,7 @@ const MobileNav = () => {
               className='hover:cursor-pointer'
             />
           </SheetTrigger>
-          <SheetContent className='bg-gradient-to-b from-lightCream to-lightCream/20'>
+          <SheetContent className='bg-gradient-to-b from-lightCream via-lightCream to-lightCream/20 to-90% w-full'>
             <SheetHeader>
               <Image
                 src='/assets/shared/desktop/logo.svg'
@@ -35,7 +35,7 @@ const MobileNav = () => {
               />
               <Separator />
             </SheetHeader>
-            <nav className='flex flex-col pt-6 items-center heading3 gap-8'>
+            <nav className='flex flex-col pt-6 items-center heading4 gap-8'>
               {links.map((link) => (
                 <SheetClose asChild>
                   <Link
