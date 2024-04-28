@@ -3,6 +3,7 @@ import { Fraunces, Barlow } from 'next/font/google'
 import './globals.css'
 import { cn } from '@/lib/utils'
 import Header from '@/components/header/Header'
+import Footer from '@/components/footer/Footer'
 
 const fraunces = Fraunces({
   subsets: ['latin'],
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body className={cn(barlow.variable, fraunces.variable, 'bg-lightCream')}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
