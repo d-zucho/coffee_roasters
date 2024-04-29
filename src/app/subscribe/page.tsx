@@ -12,7 +12,7 @@ const page = () => {
       <SharedHero
         title={subscribeTitle}
         subtitle={subscribeSubtitle}
-        image={subscribeImage}
+        image='plan'
       />
       <PlanSteps />
     </div>
