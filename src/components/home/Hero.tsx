@@ -19,7 +19,7 @@ const Hero = () => {
               directly to your door, at your schedule.
             </p>
             <Link
-              href='/plan'
+              href='/subscribe'
               className={cn(
                 buttonVariants(),
                 'max-w-[200px] text-[16px] text-lightCream font-semibold font-fraunces py-6'

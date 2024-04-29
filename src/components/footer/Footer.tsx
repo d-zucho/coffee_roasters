@@ -1,5 +1,4 @@
 import { socials } from '@/textData/socials'
-import { links } from '../../textData/navItems'
 import MaxWidthWrapper from '../MaxWidthWrapper'
 import Link from 'next/link'
 import Image from 'next/image'
@@ -9,9 +8,12 @@ const Footer = () => {
   return (
     <footer>
       <MaxWidthWrapper className='bg-darkBlue py-10'>
-        <h3 className='heading3 text-white font-fraunces text-center'>
+        <Link
+          href={'/'}
+          className='heading3 text-white font-fraunces text-center'
+        >
           coffeeroasters
-        </h3>
+        </Link>
         <div>
           <div
             id='footer-nav'

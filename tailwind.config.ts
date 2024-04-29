@@ -102,6 +102,10 @@ const config = {
           "url('/assets/plan/tablet/image-hero-blackcup.jpg')",
         'plan-hero-mobile':
           "url('/assets/plan/mobile/image-hero-blackcup.jpg')",
+
+        'steps-desktop': "url('/assets/plan/desktop/bg-steps.jpg')",
+        'steps-tablet': "url('/assets/plan/tablet/bg-steps.jpg')",
+        'steps-mobile': "url('/assets/plan/mobile/bg-steps.jpg')",
       },
       keyframes: {
         'accordion-down': {

@@ -9,6 +9,6 @@ export const links = [
   },
   {
     label: 'Create your plan',
-    path: '/plans',
+    path: '/subscribe',
   },
 ]

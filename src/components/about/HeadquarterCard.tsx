@@ -8,7 +8,7 @@ interface HeadquarterCardProps {
 const HeadquarterCard = ({ country }: HeadquarterCardProps) => {
   return (
     <article>
-      <div className='py-10'>
+      <div className='py-10 w-fit mx-auto md:mx-0'>
         <img src={country.icon} alt='United Kingdom' />
       </div>
       <h3 className='heading4'>{country.country}</h3>
